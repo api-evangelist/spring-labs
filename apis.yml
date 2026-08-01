@@ -1,8 +1,26 @@
 aid: spring-labs
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/spring-labs.png
 name: Spring Labs
-description: 'Spring Labs is a company surfaced as a portfolio company of multicoin-capital and added
-  to the API Evangelist network as a stub for enrichment. Sector: crypto-web3. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Spring Labs is an AI-native compliance and customer-experience platform for financial
+  institutions, deploying autonomous AI agents that complete operational work rather than only surfacing
+  insights. Its agents score customer-service calls, run 100% QA/QC review coverage, identify and file
+  complaints, and (soon) automate the dispute lifecycle, alongside SummerGRC, an AI-driven governance,
+  risk, and compliance product. Spring Labs targets sponsor banks, fintech lenders, enterprise banks,
+  BaaS platforms, and debt-collection (ARM) organizations. Originally a blockchain-based data and identity
+  company backed by Multicoin Capital, the firm has repositioned around applied AI for regulated financial
+  operations. This profile was surfaced from a VC portfolio and enriched by the API Evangelist pipeline;
+  the company publishes a marketing/product site but no public API, developer portal, or SDKs at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/spring-labs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-- Crypto Web3
+- Artificial Intelligence
+- Compliance
+- Financial Services
+- Banking
+- Customer Experience
+- Governance Risk Compliance
+- Fintech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +49,16 @@ maintainers:
 common:
 - type: Website
   url: https://springlabs.com
+- type: Blog
+  url: https://springlabs.com/blog
+- type: TermsOfService
+  url: https://springlabs.com/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://springlabs.com/privacy-policy
+- type: DomainSecurity
+  url: security/spring-labs-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
