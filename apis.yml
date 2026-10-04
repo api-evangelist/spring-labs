@@ -46,7 +46,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Compliance
-- Financial-Services
+- Financial Services
 - Banking
 - Customer Experience
 - Governance Risk Compliance
@@ -60,6 +60,7 @@ tags_raw:
 - Customer Experience
 - Governance Risk Compliance
 - Fintech
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
